@@ -30,6 +30,7 @@
      border-image: linear-gradient(to bottom, #fdbb2d 0%, #dfdd27 2%, #e9ba29 4%, #f2f32b 6%, #c3ae22 9%, #ffed71 18%, #c3ae22 27%, #ffc207 35%, #c3ae22 42%, #ffef3b 48%, #c3ae22 56%, #ffc736 63%, #c3ae22 71%, #ffe833 79%, #c3ae22 90%, #dfdd27 92%, #e9ba29 95%, #f2f32b 98%, #fdbb2d 100%) 1;
   margin: 1rem 1rem 1rem 1rem;
   width: 100%;
+  max-width: 900px;
   height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -93,6 +94,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  text-align: center;
 }
 
 #title__p {
@@ -135,5 +137,50 @@
   display: flex;
   -ms-flex-item-align: center;
       align-self: center;
+}
+
+#tribute-info {
+  width: 100%;
+}
+
+#tribute-info h3 {
+  text-align: center;
+  margin: 2rem auto 1rem;
+  padding: 1rem 0 1rem 0;
+  width: 90%;
+  max-width: 650px;
+}
+
+#tribute-info li {
+  margin: 0 auto;
+  padding: 1rem 0 1rem 0;
+  width: 85%;
+  max-width: 550px;
+  text-align: start;
+}
+
+#tribute-info li > em {
+  padding-right: 0.5rem;
+}
+
+#tribute-title {
+  font-weight: 300;
+}
+
+#tribute-link {
+  margin: 0 auto;
+  padding: 1rem 0 1rem 0;
+  width: 90%;
+  max-width: 650px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+footer {
+  font-size: 0.6rem;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  padding: 0.5rem;
+  margin-right: 0.5rem;
 }
 /*# sourceMappingURL=styles.css.map */
