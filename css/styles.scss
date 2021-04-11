@@ -13,16 +13,40 @@
     justify-content: center;
     align-items: center;
 }
+#marco{
+    border: 10px solid transparent;
+    // border-image: linear-gradient(to bottom, #3acfd5 0%, #3a4ed5 100%) 1;
+    border-image: linear-gradient(to bottom, rgba(253,187,45,1) 0%, rgba(223,221,39,1) 2%, rgba(233,186,41,1) 4%, rgba(242,243,43,1) 6%, rgba(195,174,34,1) 9%, rgba(255,237,113,1) 18%, rgba(195,174,34,1) 27%, rgba(255,194,7,1) 35%, rgba(195,174,34,1) 42%, rgba(255,239,59,1) 48%, rgba(195,174,34,1) 56%, rgba(255,199,54,1) 63%, rgba(195,174,34,1) 71%, rgba(255,232,51,1) 79%, rgba(195,174,34,1) 90%, rgba(223,221,39,1) 92%, rgba(233,186,41,1) 95%, rgba(242,243,43,1) 98%, rgba(253,187,45,1) 100%)1;
+
+
+    margin: 1rem 1rem 1rem 1rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center 
+}
+#marco-ext{
+    border: 3rem transparent ;
+    margin-top: 2rem;
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center 
+}
 #main{
     background: rgb(34,34,34);
     background: linear-gradient(0deg, rgba(34,34,34,1) 0%, rgba(48,46,66,0.8155637254901961) 100%);
-    margin:  0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center 
 }
 
 #title{
     @extend .center-margin;
     font-size: 2.3rem;
-    width: 80%;
+    width: 90%;
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
     line-height: 1.5;
@@ -37,24 +61,32 @@
     padding-bottom: 1.5rem;
 }
 #img-div{
+    width:fit-content;
+    height: max-content;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding: 1rem;
-    
-
+    justify-self: center;
+    padding: 2rem;
+    margin: 0 1rem 0 1rem;
+    background: white;
+    -webkit-box-shadow: 11px 9px 23px 6px rgba(0,0,0,0.6); 
+    box-shadow: 11px 9px 23px 6px rgba(0,0,0,0.6);
 }
 #image{
     margin: 0 auto;
-    max-width: 90%;
-    height: auto;
-    border: 3rem solid white;
-    -webkit-box-shadow: 11px 9px 23px 6px rgba(0,0,0,0.6); 
-    box-shadow: 11px 9px 23px 6px rgba(0,0,0,0.6);
+    max-width: 100%;
+    
 }
 #img-caption{
     @extend .flex-center;
     color: black;
-    padding-top: 1rem;
+    margin:  1rem 0 1rem 0;
+    width:90%;
+    display: flex;
+    align-self: center;
+    
 }
 
+#tribute-info{
+
+}
